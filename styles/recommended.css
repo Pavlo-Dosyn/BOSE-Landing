@@ -1,0 +1,37 @@
+@import url(../styles/variables.css);
+
+.recommended {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.recommended__title {
+  margin: 0 0 64px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .recommended {
+    padding: 120px 0;
+  }
+
+  .recommended__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .recommended {
+    padding: 120px 0;
+  }
+
+  .recommended__title {
+    margin: 0 0 48px;
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: var(--color-text-main);
+}
+
+body:has(.menu:target) {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
